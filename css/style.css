@@ -119,6 +119,11 @@ header{
     .party p{}
     .join_btn{
         margin-left:50px;
+        padding: 10px;
+        color: #fff;
+        background: transparent;
+        border: 2px solid #000;
+        text-transform: uppercase;
     }
     .offer_section{
         width:90%;
@@ -386,7 +391,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .news{
    text-align: center;
-   
+   width: 50%;
 }
 
 .news img{
@@ -401,7 +406,12 @@ font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     margin-bottom: 10px;
 }
-.news p{}
+.news p{
+  font-size: 16px;
+  color: #999;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 .news input{
   color: #ddd;
   border: none;
@@ -522,4 +532,22 @@ footer{
   border-radius: 50%;
   height: 300px;
   position: relative;
+}
+.banner_content h1{
+    color: #000;
+    font-size: 68px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.new_wra_sec{
+    display: flex;
+}
+.news_wra{
+    width: 25%;
+}
+.news_wra_two{
+    width: 25%;
 }
